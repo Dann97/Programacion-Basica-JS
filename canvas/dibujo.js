@@ -18,6 +18,8 @@ for(l=30;l>0;l--)
     xinicial=10*l;
     yfinal=(30-l)*10;
     dibujarLineas("blue",xinicial,0,0,yfinal);
+    dibujarLineas("green",300,xinicial,yfinal,300);
+
 }
 
 function dibujarLineas(color,xinicial,yinicial,xfinal,yfinal)
